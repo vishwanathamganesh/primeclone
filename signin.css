@@ -28,14 +28,11 @@ bottom:10px;
 input{
 	padding-left: 180px;
 }
+a{
+	text-decoration: none;
+}
 .eat{
 font-family: sans-serif;
-}
-.fan{
-	font-family: sans-serif;
-	color: skyblue;
-	position: relative;
-	left: 90px;
 }
 .button{
 	background-color:orange;
@@ -83,7 +80,7 @@ font-family: sans-serif;
 
 }
 .speaker{
-	background-color:#cccccc;
+	background-color:#e6e6e6;
 	border:none;
 	color: black;
     text-align: center;
