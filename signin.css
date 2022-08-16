@@ -1,0 +1,138 @@
+body{
+	margin: 0px;
+	padding:0px;
+}
+.apple{
+	position: relative;
+left: 35%;
+}
+.ball{
+	border:1px solid #bfbfbf;
+	width: 330px;
+	height:410px;
+	position: relative;
+	left: 490px;
+	top:-30px;
+	padding: 16px 16px;
+}
+.cat{
+font-size: 35px;
+font-family: sans-serif;
+text-align: left;
+position: relative;
+bottom:10px;
+}
+.dog{
+	font-family: sans-serif;
+}
+input{
+	padding-left: 180px;
+}
+.eat{
+font-family: sans-serif;
+}
+.fan{
+	font-family: sans-serif;
+	color: skyblue;
+	position: relative;
+	left: 90px;
+}
+.button{
+	background-color:orange;
+	border:none;
+	color: black;
+	padding-top: 6px;
+	padding-left: 210px;
+	padding-bottom:8px;
+    text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 8px;
+	font-family:sans-serif;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	cursor:pointer;
+	position: relative;
+	left:-10px;
+	font-size: 15px;
+	border-radius: 5px;
+	width: 330px;
+	border:1px solid black;
+}
+
+.hat{
+	position: relative;
+	right: 100px;
+}
+#scale{
+	margin: 20px;
+}
+.wire{
+	font-family: sans-serif;
+	font-size: 14px;
+}
+.what{
+	text-align: center;
+	color: grey;
+	margin-bottom: 15px;
+}
+.what:after{
+	width: 100%;
+
+}
+.speaker{
+	background-color:#cccccc;
+	border:none;
+	color: black;
+    text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 8px;
+	font-family:sans-serif;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	cursor:pointer;
+	position: relative;
+	left:-10px;
+	font-size: 15px;
+	border-radius: 5px;
+	border:1px solid black;
+	width: 330px;
+	padding: 5px;
+	top:-10px;
+}
+.tah{
+	position: relative;
+}
+.true{
+	border-top:1px solid #bfbfbf;
+}
+.cap{
+	padding: 10px;
+	text-align: center;
+	position: relative;
+left: -70px;
+color:#008ae6;
+}
+.cap1{
+padding: 15px 15px;
+
+}
+.cap2{
+	padding: 15px 15px;
+}
+.cap3{
+	padding: 15px 15px;
+}
+.true1{
+	text-align: center;
+	font-family: sans-serif;
+	margin: 15px 15px;
+	position: relative;
+	left:35%;
+	top:-30px;
+}
