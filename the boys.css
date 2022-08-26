@@ -1,0 +1,297 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar{
+	display: inline-black;
+	background-color: #0d0d0d;
+	margin-bottom: 0px;
+	width: 100%;
+	position: relative;
+	
+}
+.navbar a{
+	width:100%;
+text-align: center;
+color: #808080;
+text-decoration: none;
+position: relative;
+top: -10px;
+left: 1%;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 70px;
+font-family: sans-serif;
+}
+.apple{
+	background-color: black;
+	width: 100%;
+	height:480px;
+	
+}
+.boat{
+	padding: 2rem 2rem;
+	text-align: center;
+	height: 440px;
+	background-color:black  ;
+	border:1px solid white;
+}
+.cat{
+	display: inline-block;
+	padding:1rem 1rem;
+	vertical-align:middle;
+	height:395px;
+	float: left;
+	width: 65%;
+	border:1px solid white;
+}
+.dog{
+	display: inline-block;
+	padding:1rem 1rem;
+	vertical-align:middle;
+	height:395px;
+	width: 30%;
+border:1px solid white;
+}
+.eat{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+	text-align: left;
+	float: left;
+}
+form{
+	position: relative;
+	left:-440px;
+	top:20px;
+}
+#cars{
+	background-color: #33334d;
+	padding: 5px 5px;
+	cursor:pointer;
+}
+option{
+	background-color: #52527a;
+	padding: 5px 5px;
+}
+.today{
+	position: relative;
+	left:-220px;
+
+}
+.today a{
+	padding-top: 10px ;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	color:#666699;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+.fan{
+	color: white;
+	font-family: sans-serif;
+	text-align: left;
+	float: left;
+}
+.button{
+	background-color:#007acc; 
+	border:none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	font-family:sans-serif;
+	margin: 1px 1px;
+	cursor:pointer;
+	position: relative;
+	top:60px;
+	left:-790px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+ion-icon{
+	padding-right: 10px;
+	position: relative;
+	top: 2px;
+}
+.button1{
+	background-color:#33334d; 
+	border:none;
+	color: white;
+	padding: 6px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 1px 1px;
+	cursor:pointer;
+	position: relative;
+	top:18px;
+	left:-300px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.red{
+	width: 25px;
+	height: 25px;
+}
+.goat{
+	font-size: 12px;
+	font-family:sans-serif;
+	position: relative;
+	top: -5px;
+}
+.zebra{
+	padding: 2px 2px;
+	color: #666699;
+	font-family: sans-serif;
+	font-size: 13px;
+
+}
+.yak{
+padding: 10px 60px;
+color: darkblue;
+	font-family: sans-serif;
+	font-size: 13px;
+
+}
+.axe{
+	height: 670px;
+	width: 100%;
+	background-color:  black;
+}
+.tin{
+	position: relative;
+	left: 220px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+.samm{
+	position: relative;
+	left:200px;
+	background-color: #1a1a1a;
+	padding-right: 250px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.onion{
+	padding-left: 10px;
+	color: #666699;;
+	font-family: sans-serif;
+	font-size: 10px;
+	text-align: left;
+	float: left;
+}
+.rice{
+	padding-left: 50px;
+	cursor:pointer;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.rice img{
+	width: 100%;
+	transition: 0.5s all easy-in-out;
+}
+.rice:hover img{
+	transform:scale(1.5);
+}
+
+.play-button-outer {
+  margin: 0px 0px;
+   width: 35px;
+  height:35px;
+  background-color: darkblue;
+  cursor: pointer;
+  border-radius:80%;
+}
+
+.play-button {
+  margin: 0 auto;
+  top: 25%;
+  position: relative;  
+  left:5px;
+  width: 2px;
+  height: 2px;
+  border-style: solid;
+  border-width:8px 8px 8px 13px;
+  border-color: transparent transparent transparent#ffffff;
+  opacity: .75; 
+}
+
+.play-button-outer:hover {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.play-button-outer:hover .play-button {
+  opacity: 1;
+}
+.pillo{
+	font-size: 15px;
+	font-family: sans-serif;
+	color: white;
+
+}
+.spoon{
+	position: relative;
+	left: 10px;
+}
+.cap{
+	padding: 10px;
+	text-align: center;
+	position: relative;
+left: -70px;
+color:#666699;
+}
+.cap1{
+padding: 15px 15px;
+
+}
+.cap2{
+	padding: 15px 15px;
+}
+.cap3{
+	padding: 15px 15px;
+}
+.button5{
+	background-color: black;
+	color: #666699;
+	border:none;
+	cursor:pointer;
+}
+.carousel-cell{
+	width: 100%;
+	margin-right: 0px;
+}
+.carousel-cell:before{
+	display: block;
+}
+.pondy{
+	width: 200px;
+	height: 140px;
+	padding: 6px 6px;
+}
+.carousel{
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: black;
+}
+.false{
+	background-color:black;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: white;
+}
+
+  #seeMore {
+    display: none;
+  }
+
+  #seeMore:target {
+    display: block;
+  }
