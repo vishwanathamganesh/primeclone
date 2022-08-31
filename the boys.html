@@ -15,7 +15,7 @@
 		<div class="navbar" style="margin-bottom: 0px">
 	<img src="Images/book.png" width="150px"height="60px">
 	<a href="#">home</a>
-	<a href="#">Tv shows</a>
+	<a href="#false">Tv shows</a>
 	<a href="#">Movies</a>
 	<a href="#">Kids</a>
 	<a href="#">Kids</a>
@@ -44,7 +44,7 @@
 	and so many actore acted in this series</span></p> 
 
 <button class="button"><ion-icon name="play"></ion-icon>play</button>
-<button class="button1"><ion-icon class="red" name="add"></ion-icon><span class="goat">Add to watch later</span></button>
+<button class="button1" onclick="tothis()"><ion-icon class="red" name="add"></ion-icon><span class="goat">Add to watch later</span></button>
 <table style="position: relative;top: 50px; text-align: left">
 	<tr>
 		<td><span class="zebra">staring</span></td>
@@ -68,7 +68,7 @@
 <div class="axe">
 	<div class="cap">
 		<button class ="button5" href="#seemore">episodes</button>
-		<button class ="button5">related</button>
+		<button class ="button5"  onclick="show_confirm()">related</button>
 		<button class ="button5">details</button>
 </div>
 <section id="seemore">
@@ -149,110 +149,72 @@
 		</tr>
 	</table>
 </div></section>
-<div class="false">english movies</div>
+<div id="false">tv shows</div>
 <div class="carousel" data-flickity='{ "wrapAround": "true", "autoplay": true,"dots":"false" }'>
 	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
+		<img src="Images/telugu8.png" class="pondy">
+		<img src="Images/telugu9.png" class="pondy">
+		<img src="Images/telugu10.png" class="pondy">
+		<img src="Images/telugu11.png" class="pondy">
+		<img src="Images/telugu12.png" class="pondy">
+		<img src="Images/telugu13.png" class="pondy">
+		<img src="Images/telugu14.png" class="pondy">
 	</div>
 	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
+		<img src="Images/telugu1.png" class="pondy">
+		<img src="Images/telugu2.png" class="pondy">
+		<img src="Images/telugu3.png" class="pondy">
+		<img src="Images/telugu4.png" class="pondy">
+		<img src="Images/telugu5.png" class="pondy">
+		<img src="Images/telugu6.png" class="pondy">
+		<img src="Images/telugu7.png" class="pondy">
 	</div>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-</div>
-<div class="false">english movies</div>
-<div class="carousel" data-flickity='{ "wrapAround": "true", "autoplay": true,"dots":"false" }'>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-	<div class="carousel-cell">
-		<img src="Images/image1.png" class="pondy">
-		<img src="Images/image2.png" class="pondy">
-		<img src="Images/image3.png" class="pondy">
-		<img src="Images/image4.png" class="pondy">
-		<img src="Images/image8.png" class="pondy">
-		<img src="Images/image11.png" class="pondy">
-		<img src="Images/image9.png" class="pondy">
-	</div>
-</div>
-<div>
 	
+</div>
+<div class="true">english movies</div>
+<div class="carousel" data-flickity='{ "wrapAround": "true", "autoplay": true,"dots":"false" }'>
+	<div class="carousel-cell">
+		<img src="Images/hindi8.png" class="pondy">
+		<img src="Images/hindi9.png" class="pondy">
+		<img src="Images/hindi10.png" class="pondy">
+		<img src="Images/hindi11.png" class="pondy">
+		<img src="Images/hindi12.png" class="pondy">
+		<img src="Images/hindi13.png" class="pondy">
+		<img src="Images/hindi14.png" class="pondy">
+	</div>
+	<div class="carousel-cell">
+		<img src="Images/hindi1.png" class="pondy">
+		<img src="Images/hindi2.png" class="pondy">
+		<img src="Images/hindi3.png" class="pondy">
+		<img src="Images/hindi4.png" class="pondy">
+		<img src="Images/hindi5.png" class="pondy">
+		<img src="Images/hindi6.png" class="pondy">
+		<img src="Images/hindi7.png" class="pondy">
+		
+	</div>
 </div>
 <script>
-	
+	function tothis() {
+  alert("sorry server is busy");
+}
+document.queryselector('a[href="#"]').foreach(anchor => {
+	anchor.addEventListener("click",function(e){
+		e.preventdefault();
+		document.queryselector(this.getAttribute("href")).scrollintoveiw({
+			behaviour:"smooth"
+		})
+	});
+});
+function show_confirm(){
+	var r=confirm("press ok button")
+	if(r==true){
+		alert("show ok button")
+	}
+	else{
+		alert("show cancel button")
+	}
+
+}
 </script>
 </body>
 </html>
-
-
-	
